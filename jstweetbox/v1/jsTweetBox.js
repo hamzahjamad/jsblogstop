@@ -493,7 +493,7 @@ var jsTweetBox = function(){
   fadeMessage = function(){
     $twtMsg.fadeOut(3000);
   };
-  $("head").append("<link id='js-tweet-box-styles' rel='stylesheet' type='text/css' href='http://jsblogstop.googlecode.com/svn/jstweetbox/v1/jsTweetBox.css'/>");
+  $("head").append("<link id='js-tweet-box-styles' rel='stylesheet' type='text/css' href='https://cdn.rawgit.com/hamzahjamad/jsblogstop/master/jstweetbox/v1/jsTweetBox.css'/>");
   $(document).ready(init);
   return this;
 }();
