@@ -1,0 +1,109 @@
+.js-slider {
+	overflow: hidden;
+	height: 100%;
+}
+.js-slider > .js-group-wrapper{
+	position: relative;
+}
+.js-vertical-slider .js-item{
+	display: block !important;
+	width: 100%;
+}
+.js-horizontal-slider .js-item{
+	display: inline-block !important;
+	min-height: 100%;
+	margin: 0px 10px;
+	overflow: hidden;
+}
+.js-slider-prev-arrow, .js-slider-next-arrow {
+	position: relative;
+	display: inline-block;
+	/* Set Background to a generic Sprite image for all 4 buttons */
+}
+.js-horizontal-slider > .js-slider-prev-arrow{
+	/*Set Dimensions and Background Image */
+}
+.js-horizontal-slider > .js-slider-next-arrow{
+	/*Set Dimensions and Background Image */
+}
+.js-vertical-slider > .js-slider-prev-arrow{
+	/*Set Dimensions and Background Image */
+}
+.js-vertical-slider > .js-slider-next-arrow{
+	/*Set Dimensions and Background Image */
+}
+
+.js-fade-rotate {
+	text-align: center;
+}
+.js-rotate-item, .js-reveal-item, .js-item {
+	display: none;
+}
+.js-fade-reveal img{
+	height: 100%;
+	width: auto;
+}
+.js-selectors.tabs, .js-nav-group.tabs {
+	padding-left: 15px;
+}
+.js-tabs-pages, .js-tabbed-group {
+	padding: 10px;
+	background-color: #ffffff;
+	color: #333333;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0px 0px 5px #cccccc;
+	-moz-box-shadow: 0px 0px 5px #cccccc;
+	-webkit-box-shadow: 0px 0px 5px #cccccc;
+}
+.js-selectors.buttons, .js-nav-group.buttons {
+	text-align: center;
+}
+.js-selector, .js-item-nav {
+	color: #ffffff;	
+	background-color: #888888;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	opacity: 1;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+
+.js-selector.button, .js-item-nav.button{
+	min-height: 8px;
+	min-width: 16px;
+	margin: 2px;
+	border: 2px inset #666;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.js-selector.tab, .js-item-nav.tab{
+	padding: 3px 10px;
+	margin: 0px 5px 0px 0px;
+	min-width: 60px;
+	text-align: center;
+	border: 1px solid #a9a9a9;
+	border-bottom: none;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+}
+.js-selector:hover, .js-item-nav:hover {
+	background-color: #aaaaaa;
+	opacity: 1;
+  	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+}
+.js-selector.active, .js-item-nav.active{
+	color: #ffffff !important;
+	background-color: #aaaaaa;
+	opacity: 1 !important;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+	filter: alpha(opacity=100) !important;
+}
+.js-selector.active.button, .js-item-nav.active.button {
+	border: 2px outset #666;	
+}

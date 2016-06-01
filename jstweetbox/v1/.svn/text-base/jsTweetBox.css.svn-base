@@ -1,0 +1,289 @@
+#js-tweet-box {
+  display: inline-block;
+  padding: 10px;
+  font-family: 'Helvetica Neue','Helvetica','Arial',sans-serif;
+  color: #666666;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+}
+#js-tweet-box textarea{
+  margin: 10px 0px;
+  display: block;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+
+  box-shadow: 0px 0px 3px #cccccc;
+  -moz-box-shadow: 0px 0px 3px #cccccc;
+  -webkit-box-shadow: 0px 0px 3px #cccccc;
+  border: 1px solid #cccccc;
+}
+#js-tweet-box .js-reactions {
+	float: left;
+}
+.js-tweet-count {
+	float: left;
+	margin: 0px 10px;
+   text-shadow: 2px 2px 2px #DDD;
+  -moz-text-shadow: 2px 2px 2px #DDD;
+  -webkit-text-shadow: 2px 2px 2px #DDD;
+}
+.js-tweet-count-over {
+    color: #ff0000;
+}
+#js-tweet-box .button{
+   display: inline-block;
+   color: #287497;
+   font-weight: bold;
+	font-size: 14px;
+   padding: 5px 10px;
+   cursor: pointer;
+	border: 1px solid #B4DCF5;
+   border-radius: 4px;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+				
+	background-color: #D5E8F5;
+	background-image: linear-gradient(#F1F9FF, #D5E8F5);
+	background-image: -moz-linear-gradient(#F1F9FF, #D5E8F5);
+	background-image: -webkit-linear-gradient(#F1F9FF, #D5E8F5);
+
+}
+#js-tweet-box .button:hover{  
+	background-color: #DdEfFb;
+	background-image: linear-gradient(#ffffff, #DdEfFb);
+	background-image: -moz-linear-gradient(#ffffff, #DdEfFb);
+	background-image: -webkit-linear-gradient(#ffffff, #DdEfFb);
+}
+.js-tweet-button {
+    float: right;
+}
+#js-tweet-box .js-sidebar{
+	float: left;
+	margin-right: 15px;
+	width: auto;
+	padding: 0px;
+}
+.js-current-user-twitter img{
+	width: 48px;
+	height: auto;	 
+	display: block;
+	margin: 5px auto;
+}
+.js-publisher,
+.js-current-user-twitter {
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;	
+	box-shadow: 0px 0px 5px #CCC;
+	-moz-box-shadow: 0px 0px 5px #CCC;
+	-webkit-box-shadow: 0px 0px 5px #CCC;
+	color: #333;
+	background-color: #ffffff;
+	min-width: 120px;
+	padding-bottom: 8px;
+	margin-bottom: 15px;
+}
+.js-publisher{
+	
+}
+.js-publisher > div,
+.js-current-user-twitter > div{
+	padding: .5em;
+}
+.js-sidebar footer{
+	background: #E9E9E9;
+	padding: 5px;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	background-color: #0094D4;
+	background-image: linear-gradient(#00A4F4, #0094D4);
+	background-image: -moz-linear-gradient(#00A4F4, #0094D4);
+	background-image: -webkit-linear-gradient(#00A4F4, #0094D4);
+	color: white;
+}
+js-twtr-connect-button {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #0094D4;
+	background-image: linear-gradient(#00A4F4, #0094D4);
+	background-image: -moz-linear-gradient(#00A4F4, #0094D4);
+	background-image: -webkit-linear-gradient(#00A4F4, #0094D4);
+	color: white;
+}
+.js-publisher:hover footer{
+	
+}
+.js-publisher-img {
+	width: 48px;
+	height:auto;
+	display: block;
+	margin: 5px auto;	
+}
+#js-tweet-box .disabled-button{
+    cursor: none;
+    background-color: #cccccc;
+    color: #dddddd;
+}
+#js-tweet-box .disabled-button:hover{
+    cursor: none;
+    background-color: #cccccc;
+    color: #dddddd;
+}
+.js-tweet-message {
+  display: none;
+  padding: 3px;
+  background-color: yellow;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+  box-shadow: 0px 0px 7px #DDD;
+  -moz-box-shadow: 0px 0px 7px #DDD;
+  -webkit-box-shadow: 0px 0px 7px #DDD;
+}
+.js-recent-tweets, .js-auth-reaction {
+	clear: both;
+	font-size: 13px;
+	margin-top: 15px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0px 0px 5px #cccccc;
+	-moz-box-shadow: 0px 0px 5px #cccccc;
+	-webkit-box-shadow: 0px 0px 5px #cccccc;
+}
+.js-auth-reaction {
+	 display: none;
+}
+.js-reactions h1 {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	background: #E9E9E9;
+	color: #333333;
+	border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	background-image: linear-gradient(#F4F4F4,#D4D4D4);
+	background-image: -moz-linear-gradient(#F4F4F4,#D4D4D4);
+	background-image: -webkit-linear-gradient(#F4F4F4,#D4D4D4);
+}
+.js-recent-tweets h1 > span{
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.twtr-img {
+	float: left;
+	width: 48px;
+	height: auto;
+	margin-right: 3px;
+}
+.twtr-tweet {
+	padding: 5px;
+	font-size: 12px;
+	font-family: arial;
+	line-height: 1.2;
+}
+.js-auth-reaction .twtr-tweet {
+	background-color: #ffffff;
+}
+.twtr-tweet:hover {
+	background: rgba(0,132,180,.1);
+}
+.twtr-tweet:hover .tweet-timestamp {
+	color: #0084b4;
+}
+.twtr-tweet:last-child {
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+}
+.twtr-tweet a {
+	color: #0084B4;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tweet-row {
+	font-weight: bold;
+}
+.tweet-actions{
+	display: none;
+}
+.tweet-actions { 
+	color: #0084b4; 
+	font-size: 12px;
+	visibility: hidden;
+}
+.tweet-actions > span {
+	cursor: pointer;
+}
+.twtr-tweet:hover .tweet-timestamp {
+	color: #0084b4;
+}
+.tweet-favorite,
+.tweet-retweet,
+.tweet-reply { 
+	padding-left: 5px;
+}
+
+.tweet-favorite:hover,
+.tweet-retweet:hover,
+.tweet-reply:hover { 
+	text-decoration: underline;
+}
+
+.twtr-tweet:hover .tweet-actions,
+.twtr-tweet:hover .user-actions {
+	visibility: visible;
+}
+.tweet-actions .sprite,
+.tweet-actions .active-sprite {
+	width: 16px;
+	height: 15px;
+	display: inline-block;
+	background: transparent url(http://lh5.googleusercontent.com/_4--iydzx5JA/TbuNE63KtyI/AAAAAAAAAb4/IFHQzilvbGk/s800/twitter-spritev2.png) repeat-x scroll top left;
+}
+.tweet-remove .sprite {
+	background: transparent url(http://a2.twimg.com/a/1304464034/phoenix/img/sprite-icons.png) repeat-x scroll top left;
+	background-position: -112px 1px;
+}
+.tweet-remove:hover .sprite {
+	background-position: -128px 1px;
+}
+
+.tweet-retweet .sprite {
+	background-position: 48px 1px;
+}
+.tweet-retweet .active-sprite {
+	background-position: 16px 1px;
+}
+.tweet-retweet:hover .sprite {
+	background-position: 32px 1px;
+}
+.tweet-favorite .sprite {
+	background-position: 96px 0px;
+}
+.tweet-favorite .active-sprite {
+	background-position: 64px 0px;
+}
+.tweet-favorite:hover .sprite {
+	background-position: 80px 0px;
+}
+.tweet-reply .sprite {
+	background-position: 0px 1px;
+}
+.tweet-reply:hover .sprite {
+	background-position: -16px 1px;
+}

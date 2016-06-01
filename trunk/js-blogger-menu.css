@@ -1,0 +1,110 @@
+#js-blogger-menu {
+	margin: 0;
+	padding: 8px;
+	line-height: 100%;
+	float: left;
+	overflow: visible;
+	list-style: none;
+	
+	border-radius: 2em;
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+}
+
+#js-blogger-menu a {
+	font-weight: bold;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#js-blogger-menu li:hover {
+	color: #ffffff;
+}
+#js-blogger-menu .js-blogger-menu {
+	margin: 0px 5px;
+	padding: 5px 8px;
+	float: left;
+	position: relative;
+	list-style: none;
+	background-color: #aaaaaa;
+	border-radius: 1.6em;
+	
+	box-shadow:	0px 0px 3px #a9a9a9;
+}			
+#js-blogger-menu .js-blogger-menu a{
+	color: #ffffff;
+}
+#js-blogger-menu .js-blogger-menu:first{
+	margin-left: 0px;
+}
+#js-blogger-menu .js-blogger-menu:last{
+	margin-right: 0px;
+}
+#js-blogger-menu .js-blogger-menu:hover {
+	background-color: #CCCCCC;
+}
+#js-blogger-menu li:hover > .js-blogger-sub-menu{
+	display: block;
+}
+#js-blogger-menu .js-blogger-sub-menu {
+	display: none;
+	position: absolute;
+	width: 200px;
+	padding: 0;
+	z-index: 10;
+	
+	background: #f3f3f3 url(img/gradient.png) repeat-x 0 0;
+	border: solid 1px #B4B4B4;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+}
+#js-blogger-menu .js-blogger-sub-menu li:first-child{
+	border-radius-top-left: 9px;
+	border-radius-top-right: 9px;
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+
+	-webkit-border-top-right-radius: 9px;
+	-moz-border-radius-topright: 9px;
+}
+#js-blogger-menu .js-blogger-sub-menu li:last-child{
+	border-radius-bottom-left: 9px;
+	border-radius-bottom-right: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomleft: 9px;
+
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+}
+#js-blogger-menu .js-blogger-sub-menu li {
+	list-style: none;
+	padding: 5px;
+	position: relative;
+	float: none;
+}
+#js-blogger-menu .js-blogger-sub-menu li:hover {
+	background-color: #0078FF !important;
+	background-color: rgba(0,112,256,0.5) !important;
+}
+#js-blogger-menu .js-blogger-sub-menu a {
+	color: #999999;
+}
+#js-blogger-menu .js-blogger-sub-menu a:hover {
+	color: #ffffff;
+}
+#js-blogger-menu .js-blogger-sub-menu ul {
+	left: 195px;
+	top: 5px;
+}
+#js-blogger-menu.li-opts {
+	float: right;
+	margin-right: 5px;
+}
+.tabs-outer {
+	overflow: visible;
+}
