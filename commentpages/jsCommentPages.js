@@ -14,7 +14,7 @@ var jsCommentPages = function(){
 						$tab.prepend("<img src='http://lh6.googleusercontent.com/-7o7PRftYZaA/Tg0194rd1KI/AAAAAAAAAd4/0FEbtbBl760/s800/white-twitter-bird.png'>");
 						break;
 					case "fb-comments":
-						$tab.prepend("<img src='http://static.ak.fbcdn.net/rsrc.php/v1/yH/r/eIpbnVKI9lR.png'>");
+						$tab.prepend("<img src='https://1.bp.blogspot.com/-iLm6o-MThpc/VbwG96FuaaI/AAAAAAAAAbk/YM4hNetFGkk/s1600/1438394818_Socialmedia_icons_Facebook.png'>");
 						break;
 				}
 				$tab = null;
